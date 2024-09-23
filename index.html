@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="/logo2.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Sign In - A-POSE </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav aria-label="Main Navigation">
+        <div class="nav-container">
+            <div class="logo"><img src="/img.png" id="img1"> A-POSE </div>
+            <div class="nav-items">
+                <a href="home.html" class="nav-link">Home</a>
+                <a href="index.html" class="nav-link">Sign in</a>
+                <a href="about.html" class="nav-link">About Us</a>   
+            </div>
+        </div>
+    </nav>
+    
+    <a href="https://qcu.edu.ph/">
+    <img src="/logo2.png" height="175" title="#1QCU">
+    </a>
+    <h1>Quezon City University (Student Sign In)</h1>
+
+
+    <div class="attendance-container">
+        <form id="signinForm">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" placeholder="Enter Student Name" required>
+
+            <label for="studentID">Student ID:</label>
+            <input type="text" id="studentID" placeholder="Enter Student ID" required>
+
+            <button type="submit">Sign In</button>
+
+            <div id="errorMessage" class="error"></div>
+        </form>
+    </div>
+     <style>
+        body {
+          background-image: url(/image.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+    <script src="index.js"></script>
+
+    <footer id="f1">© 2024 Quezon City University</footer>
+
+</body>
+</html>
